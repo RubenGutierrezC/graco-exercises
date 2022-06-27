@@ -75,9 +75,11 @@ h1, h2 {
   color: white;
   font-weight: 600;
   font-size: 20px;
-  transition: background-color 0.3s ease;
+  transition: background-color, transform 0.3s ease;
 }
 
 .add-cart button:hover {
   background-color: rgba(73, 9, 88, 1);
+  transform: scale(1.2);
+
 }
