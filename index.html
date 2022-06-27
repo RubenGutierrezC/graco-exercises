@@ -15,98 +15,113 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="cards-container">
+      <div class="form-section">
+        <h1 class="main-title">Good Vibes Form</h1>
+
+        <div class="form-container">
+          <p class="main-title">
+            Tell us something positive that happened to you today
+          </p>
+
+          <div class="item">
+            <p>Name</p>
+
+            <input placeholder="Enter your name" />
+          </div>
+
+          <div class="item">
+            <p>Email</p>
+
+            <input placeholder="Enter your email address" />
+          </div>
+
+          <div class="item">
+            <p>On Scale of 1-10, how good was it?</p>
+
+            <input
+              type="number"
+              placeholder="Enter a number between 1 and 10"
+              max="10"
+              min="0"
+            />
+          </div>
+
+          <div class="item">
+            <p>Where did it happen?</p>
+
+            <select>
+              <option value="">At home</option>
+              <option value="">At Class</option>
+            </select>
+          </div>
+
+          <div class="item">
+            <p>At what time of day did it happen?</p>
+
+            <div>
+              <div>
+                <input type="checkbox" name="" id="morning" />
+                <label for="morning">Morning</label>
+              </div>
+
+              <div>
+                <input type="checkbox" name="" id="Afternoon" />
+                <label for="morning">Afternoon</label>
+              </div>
+
+              <div>
+                <input type="checkbox" name="" id="Evening" />
+                <label for="morning">Evening</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p>What emotions did you experience?</p>
+
+            <div>
+              <div>
+                <input type="radio" id="excited" />
+                <label for="excited">Excited</label>
+              </div>
+  
+              <div>
+                <input type="radio" id="Humbled" />
+                <label for="Humbled">Humbled</label>
+              </div>
+  
+              <div>
+                <input type="radio" id="Elated" />
+                <label for="Elated">Elated</label>
+              </div>
+  
+              <div>
+                <input type="radio" id="Loved" />
+                <label for="Loved">Loved</label>
+              </div>
+  
+              <div>
+                <input type="radio" id="Enthusiastic" />
+                <label for="Enthusiastic">Enthusiastic</label>
+              </div>
+
+            </div>
 
 
-        <div class="card">
-          <div class="card-title bg-yellow">
-            <h1>PRO</h1>
           </div>
-    
-          <div class="card-main-amount">
-            <h2>29.99</h2>
-          </div>
-    
+
+
           <div class="item">
-            <p>15 Email accounts</p>
+            <p>Please describe your postive experience</p>
+            <textarea rows="4" placeholder="Enter your experience here"></textarea>
           </div>
+
           <div class="item">
-            <p>100GB space</p>
+            <button class="submit-button">Submit</button>
           </div>
-          <div class="item">
-            <p>1 Domain Space</p>
-          </div>
-          <div class="item">
-            <p>500GB Bandwidth</p>
-          </div>
-    
-          <div class="add-cart">
-            <button>Add to cart</button>
-          </div>
-    
+
         </div>
-
-        <div class="card">
-          <div class="card-title bg-indigo">
-            <h1>standard</h1>
-          </div>
-    
-          <div class="card-main-amount">
-            <h2>49.99</h2>
-          </div>
-    
-          <div class="item">
-            <p>15 Email accounts</p>
-          </div>
-          <div class="item">
-            <p>100GB space</p>
-          </div>
-          <div class="item">
-            <p>1 Domain Space</p>
-          </div>
-          <div class="item">
-            <p>500GB Bandwidth</p>
-          </div>
-    
-          <div class="add-cart">
-            <button>Add to cart</button>
-          </div>
-    
-        </div>
-
-
-        <div class="card">
-          <div class="card-title bg-orange">
-            <h1>PRO</h1>
-          </div>
-    
-          <div class="card-main-amount">
-            <h2>79.99</h2>
-          </div>
-    
-          <div class="item">
-            <p>15 Email accounts</p>
-          </div>
-          <div class="item">
-            <p>100GB space</p>
-          </div>
-          <div class="item">
-            <p>1 Domain Space</p>
-          </div>
-          <div class="item">
-            <p>500GB Bandwidth</p>
-          </div>
-    
-          <div class="add-cart">
-            <button>Add to cart</button>
-          </div>
-    
-        </div>
-
       </div>
-
-
     </div>
-
   </body>
 </html>
